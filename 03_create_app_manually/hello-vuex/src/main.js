@@ -9,7 +9,9 @@ Vue.config.productionTip = false
 
 Axios.defaults.baseURL = 'https://dev-orderservice.baedalgeek.kr'
 Vue.prototype.axios = Axios
-Vue.prototype.deon = 'Adores January Garnet'
+Vue.prototype.DEON = 'Adores January Garnet'
+
+Vue.prototype.EventBus = new Vue()
 
 new Vue({
   router,

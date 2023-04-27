@@ -27,6 +27,11 @@ const routes = [
     path: '/tst2',
     name: 'tst2',
     component: () => import('../views/AxiosTest2.vue')
+  },
+  {
+    path: '/bus1',
+    name: 'bus1',
+    component: () => import('../views/EventBusTest1.vue')
   }
 ]
 

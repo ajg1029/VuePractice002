@@ -19,7 +19,7 @@ export default {
     }
   },
   created() {
-    console.log(this.deon)
+    console.log(this.DEON)
     this.axios({
       url: '/api/v1/orders/',
       method: 'get',

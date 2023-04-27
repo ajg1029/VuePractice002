@@ -3,11 +3,16 @@
     <nav>
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> |
-      <router-link to="/tst1">AxiosTest1</router-link>
+      <router-link to="/tst1">AxiosTest1</router-link> |
+      <router-link to="/tst2">AxiosTest2</router-link>
     </nav>
     <router-view/>
   </div>
 </template>
+
+<script>
+console.log('src/App.vue')
+</script>
 
 <style>
 #app {

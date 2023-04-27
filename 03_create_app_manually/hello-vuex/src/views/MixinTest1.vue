@@ -3,6 +3,7 @@
     <div>MixinTest1.vue</div>
     <button @click="testMethod1">mixin tst 1</button>
     <button @click="testMethod2">mixin tst 2</button>
+    <div>{{ wakMessage }}</div>
   </div>
 </template>
 
